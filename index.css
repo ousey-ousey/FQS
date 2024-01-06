@@ -12,7 +12,7 @@
     --Grayish-purple: hsl(292, 16%, 49%);
     --Dark-purple: hsl(292, 62%, 27%);
     --p-font: 1rem;
-    --before-content: url("/assets/images/icon-plus.svg");
+    --before-content: url("images/icon-plus.svg");
 }
 
 body {
