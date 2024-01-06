@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
         let p = document.getElementById("pt-" + i);
 
         if (minus) {
-            t.style.setProperty('--before-content', 'url("/assets/images/icon-minus.svg")');
+            t.style.setProperty('--before-content', 'url("images/icon-minus.svg")');
             minus = false;
             p.style.display = "block";
         } else {
-            t.style.setProperty('--before-content', 'url("/assets/images/icon-plus.svg")');
+            t.style.setProperty('--before-content', 'url("images/icon-plus.svg")');
             minus = true;
             p.style.display = "none";
         }
